@@ -1,1 +1,23 @@
+body{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
 
+  padding: 50px;
+
+  border-style: solid;
+  border
+
+  font-family: arial,sans-serif;
+  width: 800px
+}
+h1{
+  color: rgb(54, 20, 20);
+}
+i{
+  color: rgb(67, 145, 197);
+}
+b{
+  color: rgb(209, 65, 65);
+}
