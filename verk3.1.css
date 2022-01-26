@@ -6,7 +6,7 @@ body{
     margin-left: 10em;
 }
 .dalkur2{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px solid;
     padding: 1em;
@@ -14,7 +14,7 @@ body{
     margin: 1em;
 }
 .dalkur3{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid;
     padding: 1em;
@@ -22,7 +22,7 @@ body{
     margin: 1em;
 }
 .dalkur4{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: 1px solid;
     padding: 1em;
