@@ -1,10 +1,7 @@
 *{
     box-sizing: border-box;
 }
-body{
-    margin-right: 10em;
-    margin-left: 10em;
-}
+
 
     .dalkur2{
         display: grid;
@@ -58,6 +55,10 @@ body{
     }
 }
 @media only screen and (min-width: 48em ){
+    body{
+        margin-right: 10em;
+        margin-left: 10em;
+    }
     .dalkur2{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -84,6 +85,10 @@ body{
     }
 }
 @media only screen and (min-width: 60em ){
+    body{
+        margin-right: 10em;
+        margin-left: 10em;
+    }
     .dalkur2{
         display: grid;
         grid-template-columns: 1fr 1fr;
