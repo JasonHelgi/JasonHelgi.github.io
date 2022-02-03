@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2em;
+    background-color: rgb(245, 232, 207);
+}
+header{
+    
+    border: solid green;
+}
+main{
+    padding: 1em;
+    border: solid rgb(36, 19, 131);
+}
+ul.efni{
+    list-style-type: none;
+}
+.mainL{
+    text-align: center;
+    border: solid rgb(0, 0, 0);
+    border-width: 2px;
+    background-color: peru;
+    padding: auto;
+    list-style:none ;
+    padding: 1em;
+}
+.laekni{
+    background-color: pink;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
+.osk3{
+    background-color: purple;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
+.Adam{
+    background-color: salmon;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
+.alnæmi{
+    background-color: sienna;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
+.Jolakveðja{
+    background-color: steelblue;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
+.agef{
+    background-color: teal;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4em;
+}
