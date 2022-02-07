@@ -3,40 +3,107 @@
     margin: 0;
 }
 body{
-    background-color: rgb(248, 255, 244);
+    background-image: linear-gradient(rgb(248, 255, 244),rgb(202, 206, 201));
     margin: 0;padding: 0;
 }
 header{
-    background-color: rgb(71, 67, 80);
+    
+    background-image: linear-gradient(rgb(116, 114, 121),rgb(71, 67, 80));
 }
 #Yheader{
-    background-color: rgb(71, 67, 80);
+    
     text-align: right;
 }
 main{
     display: grid;
-    
 }
 footer{
-    background-color:  rgb(71, 67, 80);;
+    background-image: linear-gradient(rgb(71, 67, 80),rgb(116, 114, 121));
+    
 }
 ul.efni{
     list-style-type: none;
 }
 .mainL{
     margin-right: 2em;
-    
     text-align: center;
     border: solid rgb(0, 0, 0);
     border-width: 2px;
-    background-color: peru;
+    background-color: rgb(250, 250, 198);
     list-style:none ;    
 }
 .laekni , .osk3, .Adam,.alnæmi,.Jolakveðja,.agef,.skipt{
     padding: 3em;
-    
-
 }
-.footDL{
-    
+.navbar{
+    display: block;
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    text-size-adjust: 400%;
+    position: fixed; 
+    bottom: 0;right: 0; 
+    border-radius: 50%;
+    background-color: rgb(160, 161, 162);
+    text-align: center;
+}
+a{text-decoration: none;}
+a:link{color: rgb(255, 64, 0);}
+a:visited{color: rgb(243, 66, 19);}
+a:hover{color: rgb(219, 48, 105);}
+
+
+@media screen (min-width: 37.5em){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr,1fr;
+        background-image: linear-gradient(rgb(248, 255, 244),rgb(202, 206, 201));
+        margin: 0;padding: 0;
+    }
+    header{
+        
+        background-image: linear-gradient(rgb(116, 114, 121),rgb(71, 67, 80));
+    }
+    #Yheader{
+        
+        text-align: right;
+    }
+    main{
+        display: grid;
+    }
+    footer{
+        background-image: linear-gradient(rgb(71, 67, 80),rgb(116, 114, 121));
+        
+    }
+    ul.efni{
+        list-style-type: none;
+    }
+    .mainL{
+        margin-right: 2em;
+        text-align: center;
+        border: solid rgb(0, 0, 0);
+        border-width: 2px;
+        background-color: rgb(250, 250, 198);
+        list-style:none ;    
+    }
+    .laekni , .osk3, .Adam,.alnæmi,.Jolakveðja,.agef,.skipt{
+        padding: 3em;
+    }
+    .navbar{
+        display: block;
+        width: 5em;
+        height: 5em;
+        margin: 1em;
+        text-size-adjust: 400%;
+        position: fixed; 
+        bottom: 0;right: 0; 
+        border-radius: 50%;
+        background-color: rgb(160, 161, 162);
+        text-align: center;
+    }
+
 }
