@@ -1,25 +1,4 @@
-}
-.laekni{
-    background-color: pink;
-
-}
-.osk3{
-    background-color: purple;
-
-}
-.Adam{
-    background-color: salmon;
-
-}
-.alnæmi{
-    background-color: sienna;
-
-}
-.Jolakveðja{
-    background-color: steelblue;
-
-}
-.agef{
-    
-
-}
+body, header, main, footer, nav{
+    margin: 0 auto;
+    max-width: 37.5em;
+} 

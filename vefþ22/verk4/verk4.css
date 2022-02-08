@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
-    margin: 0;
 }
 body{
-    background-image: linear-gradient(rgb(248, 255, 244),rgb(202, 206, 201));
+    background-image: linear-gradient(rgb(116, 114, 121),rgb(71, 67, 80));
     margin: 0;padding: 0;
 }
 header{
+    width: 100%;
     
-    background-image: linear-gradient(rgb(116, 114, 121),rgb(71, 67, 80));
 }
 #Yheader{
     
@@ -17,15 +16,16 @@ header{
 main{
     display: grid;
 }
-footer{
+/*footer{
     background-image: linear-gradient(rgb(71, 67, 80),rgb(116, 114, 121));
     
-}
+}*/
 ul.efni{
     list-style-type: none;
 }
 .mainL{
     margin-right: 2em;
+    margin-left: 2em;
     text-align: center;
     border: solid rgb(0, 0, 0);
     border-width: 2px;
@@ -37,15 +37,16 @@ ul.efni{
 }
 .navbar{
     display: block;
-    width: 5em;
-    height: 5em;
-    margin: 1em;
-    text-size-adjust: 400%;
     position: fixed; 
-    bottom: 0;right: 0; 
-    border-radius: 50%;
-    background-color: rgb(160, 161, 162);
-    text-align: center;
+    bottom: 20px;
+    right: 20px; 
+    width: 10%;
+    
+}
+#mynd{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 a{text-decoration: none;}
 a:link{color: rgb(255, 64, 0);}
@@ -53,19 +54,13 @@ a:visited{color: rgb(243, 66, 19);}
 a:hover{color: rgb(219, 48, 105);}
 
 
-@media screen (min-width: 37.5em){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-    }
+@media only screen and (min-width: 37.5em){
     body{
-        display: grid;
-        grid-template-columns: 1fr,1fr;
         background-image: linear-gradient(rgb(248, 255, 244),rgb(202, 206, 201));
-        margin: 0;padding: 0;
+        margin: 0;padding:0;
     }
     header{
-        
+        width: 100%;
         background-image: linear-gradient(rgb(116, 114, 121),rgb(71, 67, 80));
     }
     #Yheader{
@@ -74,36 +69,55 @@ a:hover{color: rgb(219, 48, 105);}
     }
     main{
         display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     footer{
         background-image: linear-gradient(rgb(71, 67, 80),rgb(116, 114, 121));
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     ul.efni{
         list-style-type: none;
     }
     .mainL{
-        margin-right: 2em;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: solid rgb(0, 0, 0);
         border-width: 2px;
         background-color: rgb(250, 250, 198);
-        list-style:none ;    
+        width: 100%;
+        
+    }
+/*    .mainList{
+        display: grid;
+        grid-template-columns: repeat(6,0.8fr);
+        column-gap: 0;
+    }*/
+    nav{
+        display: flex;
+        flex-flow: row;
+        
+       
     }
     .laekni , .osk3, .Adam,.alnæmi,.Jolakveðja,.agef,.skipt{
         padding: 3em;
     }
     .navbar{
         display: block;
-        width: 5em;
-        height: 5em;
-        margin: 1em;
-        text-size-adjust: 400%;
         position: fixed; 
-        bottom: 0;right: 0; 
-        border-radius: 50%;
-        background-color: rgb(160, 161, 162);
-        text-align: center;
+        bottom: 20px;
+        right: 20px; 
+        width: 10%;
+        
     }
-
+    #mynd{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    a{text-decoration: none;}
+    a:link{color: rgb(255, 64, 0);}
+    a:visited{color: rgb(243, 66, 19);}
+    a:hover{color: rgb(219, 48, 105);}
 }
