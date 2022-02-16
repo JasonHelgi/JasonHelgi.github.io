@@ -1,0 +1,200 @@
+
+    *{box-sizing: border-box;}
+    body{
+        background-color: rgb(177, 41, 24);
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin:0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #siggi{
+        background-color: blue;
+    }
+
+        
+    }
+    .header{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 41, 24);
+    }
+    header{
+        text-align: center;
+        margin: 0;
+    }
+    .main{
+        border-style: hidden;
+        margin: 0 auto;
+        width: 100%;
+        background-image: linear-gradient(rgb(240, 89, 0),rgb(250, 184, 9));
+    }
+    main{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat 1fr;
+    }
+    .mynd{
+        background-color: rgb(124, 30, 18);
+
+
+@media only screen and (min-width: 30em){
+    *{box-sizing: border-box;}
+    body{
+        background-color: rgb(177, 41, 24);
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin:0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #siggi{
+        background-color: blue;
+    }
+    header, main, footer{
+        margin: auto;
+        max-width: 30em;
+        
+    }
+    .header{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 41, 24);
+    }
+    header{
+        text-align: center;
+        margin: 0;
+    }
+    .main{
+        border-style: hidden;
+        margin: 0 auto;
+        width: 100%;
+        background-image: linear-gradient(rgb(240, 89, 0),rgb(250, 184, 9));
+    }
+    main{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat 1fr;
+    }
+    .mynd{
+        background-color: rgb(124, 30, 18);
+    }
+
+@media only screen and (min-width: 48em){
+    *{box-sizing: border-box;}
+    body{
+        background-color: rgb(177, 41, 24);
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin:0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #siggi{
+        background-color: blue;
+    }
+    header, main, footer{
+        margin: auto;
+        
+    }
+    .header{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 41, 24);
+    }
+    header{
+        text-align: center;
+        margin: 0;
+    }
+    .main{
+        border-style: hidden;
+        margin: 0 auto;
+        width: 100%;
+        background-image: linear-gradient(rgb(240, 89, 0),rgb(250, 184, 9));
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mynd{
+        background-color: rgb(124, 30, 18);
+    }
+
+@media only screen and (min-width: 80em){
+    *{box-sizing: border-box;}
+    body{
+        background-color: rgb(177, 41, 24);
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin:0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #siggi{
+        background-color: blue;
+    }
+    header, main, footer{
+        margin: auto;
+        max-width: 60em;
+    }
+    .header{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 41, 24);
+    }
+    header{
+        text-align: center;
+        margin: 0;
+    }
+    .main{
+        border-style: hidden;
+        margin: 0 auto;
+        width: 100%;
+        background-image: linear-gradient(rgb(240, 89, 0),rgb(250, 184, 9));
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .mynd{
+        background-color: rgb(124, 30, 18);
+    }
