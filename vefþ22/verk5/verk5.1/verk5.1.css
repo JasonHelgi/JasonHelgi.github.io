@@ -1,4 +1,4 @@
-
+@media only screen and (max-width: 30em){
     *{box-sizing: border-box;}
     body{
         background-color: rgb(177, 41, 24);
@@ -15,8 +15,9 @@
     #siggi{
         background-color: blue;
     }
-
-        
+    header, main, footer{
+        margin: auto;
+        max-width: 30em;
     }
     .header{
         display: block;
@@ -44,8 +45,10 @@
         grid-template-columns: repeat 1fr;
     }
     .mynd{
+        object-fit: fill;
         background-color: rgb(124, 30, 18);
-
+    }
+}
 
 @media only screen and (min-width: 30em){
     *{box-sizing: border-box;}
@@ -97,7 +100,7 @@
     .mynd{
         background-color: rgb(124, 30, 18);
     }
-
+}
 @media only screen and (min-width: 48em){
     *{box-sizing: border-box;}
     body{
@@ -147,7 +150,7 @@
     .mynd{
         background-color: rgb(124, 30, 18);
     }
-
+}
 @media only screen and (min-width: 80em){
     *{box-sizing: border-box;}
     body{
@@ -198,3 +201,4 @@
     .mynd{
         background-color: rgb(124, 30, 18);
     }
+}
