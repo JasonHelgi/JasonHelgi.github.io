@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0;padding: 0;
+}
+header{
+    color: rgb(255, 236, 209);
+    width: 100%;
+    
+}
+#Yheader{
+    
+    text-align: right;
+}
+main{
+    display: grid;
+}
+
+ul.efni{
+    list-style-type: none;
+}
+.mainL{
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+    border: solid rgb(0, 0, 0);
+    border-width: 2px;
+    background-color: rgb(250, 250, 198);
+    list-style:none ;    
+}
+.laekni , .osk3, .Adam,.alnæmi,.Jolakveðja,.agef,.skipt{
+    padding: 3em;
+}
+.navbar{
+    display: block;
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    width: 10%;
+    
+}
+#mynd{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+a{text-decoration: none;}
+a:link{color:rgb(120, 41, 15);}
+a:visited{color: rgb(148, 93, 94);}
+a:hover{color:rgb(66, 217, 200);}
+.litur{
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 236, 209),rgb(255, 125, 0));
+}
+
+
+@media only screen and (min-width: 37.5em){
+    *{box-sizing: border-box;}
+    body{
+        background-image: linear-gradient(rgb(0, 21, 36),rgb(21, 97, 109));
+    }
+    header, main, footer, nav{
+        margin: 0 auto;
+        max-width: 37.5em;
+    } 
+    
+    header{
+        color: rgb(255, 236, 209);
+        width: 100%;
+        
+    }
+    #Yheader{
+        
+        text-align: right;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    ul.efni{
+        list-style-type: none;
+    }
+    .mainL{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        border-width: 2px;
+        background-color: rgb(250, 250, 198);
+        width: 100%;
+        
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        column-gap: 0cm;
+        
+       
+    }
+    .navbar{
+        display: block;
+        position: fixed; 
+        bottom: 20px;
+        right: 20px; 
+        width: 10%;
+        
+    }
+    #mynd{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    a{text-decoration: none;}
+    a:link{color:rgb(120, 41, 15);}
+    a:visited{color: rgb(148, 93, 94);}
+    a:hover{color:rgb(66, 217, 200);}
+    .litur{
+        width: 100%;
+        background-image: linear-gradient(rgb(255, 236, 209),rgb(255, 125, 0));
+    }
+    
+}
+
+@media only screen and (min-width: 48em){
+    *{box-sizing: border-box;}
+    body{
+        background-image: linear-gradient(rgb(0, 21, 36),rgb(21, 97, 109));
+    }
+    header, main, footer, nav{
+        margin: 0 auto;
+        max-width: 48em;
+    } 
+    
+    header{
+        
+        color: rgb(255, 236, 209);
+        width: 100%;
+        
+    }
+    #Yheader{
+        
+        text-align: right;
+    }
+    main{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+      
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    ul.efni{
+        list-style-type: none;
+    }
+    .mainL{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        border-width: 2px;
+        background-color: rgb(250, 250, 198);
+        
+        
+    }
+
+    nav{
+        max-width: 48em;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+
+    }
+    .navbar{
+        display: block;
+        position: fixed; 
+        bottom: 20px;
+        right: 20px; 
+        width: 10%;
+        
+    }
+    #mynd{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    a{text-decoration: none;}
+    a:link{color:rgb(120, 41, 15);}
+    a:visited{color: rgb(148, 93, 94);}
+    a:hover{color:rgb(66, 217, 200);}
+    .litur{
+        width: 100%;
+        background-image: linear-gradient(rgb(255, 236, 209),rgb(255, 125, 0));
+    }
+    
+}
+@media only screen and (min-width: 60em){
+    *{box-sizing: border-box;}
+    body{
+        background-image: linear-gradient(rgb(0, 21, 36),rgb(21, 97, 109));
+    }
+    header, main, footer, nav{
+        margin: 0 auto;
+        max-width: 60em;
+    } 
+    
+    header{
+        
+        color: rgb(255, 236, 209);
+        width: 100%;
+        
+    }
+    #Yheader{
+        
+        text-align: right;
+    }
+    main{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+      
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    ul.efni{
+        list-style-type: none;
+    }
+    .mainL{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        border-width: 2px;
+        background-color: rgb(250, 250, 198);
+        
+        
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+
+    }
+    .navbar{
+        display: block;
+        position: fixed; 
+        bottom: 20px;
+        right: 20px; 
+        width: 10%;
+        
+    }
+    #mynd{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    a{text-decoration: none;}
+    a:link{color:rgb(120, 41, 15);}
+    a:visited{color: rgb(148, 93, 94);}
+    a:hover{color:rgb(66, 217, 200);}
+    .litur{
+        width: 100%;
+        background-image: linear-gradient(rgb(255, 236, 209),rgb(255, 125, 0));
+    }
+    
+}
