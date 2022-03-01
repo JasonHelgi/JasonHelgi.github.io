@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: 75% 25%;
+    margin: 0;
+    padding: 0;
+}
+menu{
+    background-image: url(myndir\botwhest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-bottom: 25%;
+    padding-left: 75%;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+nav{
+    color: rgb(250, 249, 239);
+    font-family: monospace, 'Lucida Console';
+    text-shadow: -3px 1px 5px black;
+}
+.mynd{
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+main{
+    max-width: 60em;
+}
+footer{
+    color: white;
+}
+.footerLitur{
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+}
+
+@media only screen and (min-width: 60em){
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: 75% 25%;
+    margin: 0;
+    padding: 0;
+}
+menu{
+    background-image: url(myndir\botwhest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-bottom: 25%;
+    padding-left: 75%;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+nav{
+    color: rgb(250, 249, 239);
+    font-family: monospace, 'Lucida Console';
+    text-shadow: -3px 1px 5px black;
+}
+.mynd{
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+main{
+    max-width: 60em;
+}
+footer{
+    color: white;
+}
+.footerLitur{
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+}
+}
