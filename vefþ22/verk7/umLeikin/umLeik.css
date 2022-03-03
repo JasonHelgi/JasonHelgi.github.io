@@ -30,8 +30,8 @@ ul.efni{
     background-color: rgb(250, 250, 198);
     list-style:none ;    
 }
-.laekni , .osk3, .Adam,.alnæmi,.Jolakveðja,.agef,.skipt{
-    padding: 3em;
+div{
+    padding: 5px;
 }
 
 a{text-decoration: none;}

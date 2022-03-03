@@ -31,7 +31,7 @@ body{
 }
 .trailer{
     margin: auto;
-    width: 75%;
+    width: 90%;
     height: auto;
 }
 iframe{
@@ -50,7 +50,7 @@ iframe{
     }
     .trailer{
         margin: auto;
-        width: 60%;
+        width: 80%;
         height: auto;
     }
     iframe{
@@ -59,7 +59,7 @@ iframe{
         object-fit: cover;
     }
     }
-    @media only screen and (min-width: 48em){
+    @media only screen and (min-width: 60em){
         body{
             min-width: 100vh;
             min-height: 100vh;
@@ -69,8 +69,8 @@ iframe{
         }
         .trailer{
             margin: auto;
-            width: 50%;
-            height: auto;
+            width: 75%;
+            height: 50%;
         }
         iframe{
             width: 100%;
